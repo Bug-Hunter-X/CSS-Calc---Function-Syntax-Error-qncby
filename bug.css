@@ -1,0 +1,1 @@
+The CSS code uses the `calc()` function incorrectly, resulting in unexpected or incorrect layout.  Specifically, the calculation `calc(100% - 10px)` is used to set the width of an element, but the `10px` subtraction is misinterpreted because of a missing space between the `-` and the `10px` resulting in invalid syntax. 
