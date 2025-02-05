@@ -1,0 +1,6 @@
+The corrected CSS code includes a space between the `-` operator and the `10px` value in the `calc()` function. This ensures the calculation is parsed correctly:
+```css
+.container {
+  width: calc(100% - 10px);
+}
+```
